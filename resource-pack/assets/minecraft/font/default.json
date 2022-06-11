@@ -1,0 +1,22 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/siuuu.png",
+            "ascent": 16,
+            "height": 16,
+            "chars":[
+                "\uE000"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/exterminate.png",
+            "ascent": 16,
+            "height": 16,
+            "chars":[
+                "\uE001"
+            ]
+        }
+    ]
+}

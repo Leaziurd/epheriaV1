@@ -1,0 +1,38 @@
+name: epheria
+version: '${project.version}'
+main: org.theplaceholder.epheria.EPH
+api-version: 1.18
+prefix: "[EPH]"
+authors: [ thePlaceholder , Takero ]
+depend:
+  - NametagEdit
+commands:
+  fly:
+    description: FLY TO THE MOON
+    usage: /fly
+    permission: epheria.fly
+  help:
+    description: desc
+    usage: /help
+    permission: epheria.help
+    aliases: [ h ]
+permissions:
+  epheria.op:
+    default: op
+  epheria.belgian:
+    default: false
+  epheria.breton:
+    default: false
+  epheria.deuleuke:
+    default: false
+    children:
+      - epheria.exterminate
+  epheria.youtubeur:
+    default: false
+    children:
+      - epheria.fly
+  epheria.pig:
+    default: false
+    children:
+      - epheria.fly
+      - minecraft.gamemode

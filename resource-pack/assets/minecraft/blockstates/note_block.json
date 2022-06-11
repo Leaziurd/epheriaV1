@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "instrument=banjo,note=0,powered=true": {
+      "model": "block/ruby_ore"
+    }
+  }
+}
